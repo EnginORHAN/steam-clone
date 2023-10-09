@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Font Awesome -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+   <!-- MDB -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
+   <link href="https://db.onlinewebfonts.com/c/361580efb23fb9b11aa5c42e3d4a128f?family=Motiva+Sans" rel="stylesheet">
+   <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1200px-Steam_icon_logo.svg.png" type="image/x-icon">
+   <link rel="stylesheet" href="vendor/css/style.css">
+   <title>Steam</title>
+</head>
+<body>
+   <!-- Navbar -->
+   <nav class="navbar nav1 navbar-expand-lg navbar-dark">
+      <!-- Container wrapper -->
+      <div class="container-lg h-100">
+         <!-- Toggle button -->
+         <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+         </button>
+   
+         <!-- Collapsible wrapper -->
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Navbar brand -->
+            <a class="navbar-brand mt-2 mt-lg-0" href="#">
+               <img src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" alt="Steam"
+                  loading="lazy" />
+            </a>
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                  <a class="nav-link dropitem" href="#">Mağaza</a>
+                  <div class="drop-list">
+                     <ul>
+                        <li><a>Ana Sayfa</a></li>
+                        <li><a>Keşif Kuyruğu</a></li>
+                        <li><a>İstek Listesi</a></li>
+                        <li><a>Puan Dükkanı</a></li>
+                        <li><a>Haberler</a></li>
+                        <li><a>İstatikler</a></li>
+                     </ul>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Topluluk</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Hakkında</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Destek</a>
+               </li>
+            </ul>
+            <!-- Left links -->
+         </div>
+         <!-- Collapsible wrapper -->
+   
+         <!-- Right elements -->
+         <div class="nav-right h-100 gap-2">
+            <div class="d-flex gap-2 align-items-center">
+               <a href="#" class="steam_i">
+                  <img src="https://store.cloudflare.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1" alt="">
+                  <div>Steam'i Yükleyin</div>
+               </a>
+               <a href="#">giriş</a>
+               <span>|</span>
+               <a href="#">dil</a>
+            </div>
+         </div>
+         <!-- Right elements -->
+      </div>
+      <!-- Container wrapper -->
+   </nav>
+   <!-- Navbar -->
+   <!-- SubNavbar -->
+   <nav class="navbar nav2 navbar-expand" style="box-shadow: none;">
+      <div class="container-lg">
+         <div class="subnav">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link dropitem" href="#">Mağazanız</a>
+                     <div class="drop-list">
+                        <ul>
+                           <li><a><span>Ana Sayfa</span></a></li>
+                           <li><a><span>Topluluk Tavsiyeleri</span></a></li>
+                           <li><a><span>Son Görüntülenenler</span></a></li>
+                           <li><a><span>Steam Küratörleri</span></a></li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Yeni ve Kayda Değer</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Kategoriler</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Puan Dükkanı</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Haberler</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Laboratuvar</a>
+                  </li>
+                 
+               </ul>
+               <form class="d-flex" role="search">
+                  <div class="mysearch">
+                     <input class="form-control me-2" type="search" placeholder="ara" aria-label="Search">
+                     <button class="btn btn-outline-success" type="submit"><img src="https://www.svgrepo.com/show/499640/search.svg" alt=""></button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </nav>
+   <!-- SubNavbar -->
+
+   <main class="main">
+      <div class="content1">
+         <img src="https://clan.akamai.steamstatic.com/images/3381077/3adf91639b0ed711238af953a5a5ac6cbe60cb8d_960x311.jpg" alt="">
+      </div>
+     
+      <div class="row main-content">
+            <!-- Content-Left-Categori -->
+            <div class="sidenav col-xxl-3 col-2 ps-xxl-0 ms-4 pe-5  d-flex justify-content-end">
+               <div class="side-content">
+                  <a class="side-cate" href="#">
+                     <img src="https://store.akamai.steamstatic.com/public/images//gift/steamcards_promo_03.png?v=1" alt="">
+                     <div class="title">Steam Hediye Kartları</div>
+                     <div class="subtitle">Oyun Hediye Edin</div>
+                  </a>
+                  <div class="end-view">
+                     <div class="title">EN SON GÖRÜNTÜLENENLER</div>
+                     <a class="link" href="#">Counter-Strike 2</a>
+                  </div>
+                  <div class="end-view">
+                     <div class="title">TAVSİYELER</div>
+                     <a class="link" href="#">Arkadaşlar Tarafından</a>
+                     <a class="link" href="#">Küratörler Tarafından</a>
+                     <a class="link" href="#">Etiketler</a>
+                  </div>
+                  <div class="end-view">
+                     <div class="title">KATEGORİLERE GÖZ AT</div>
+                     <a class="link" href="#">Çok Satanlar</a>
+                     <a class="link" href="#">Yeni Çıkanlar</a>
+                     <a class="link" href="#">Çok Satanlar</a>
+                     <a class="link" href="#">Yeni Çıkanlar</a>
+                     <a class="link" href="#">Çok Satanlar</a>
+                     <a class="link" href="#">Yeni Çıkanlar</a>
+                  </div>
+                  
+                  <div class="end-view">
+                     <div class="title">TÜRLERE GÖRE GÖZ AT</div>
+                     <a class="link" href="#">Counter-Strike 2</a>
+                     <a class="link" href="#">Counter-Strike 2</a>
+                     <a class="link" href="#">Counter-Strike 2</a>
+                     <a class="link" href="#">Counter-Strike 2</a>
+                     <a class="link" href="#">Counter-Strike 2</a>
+                     <a class="link" href="#">Counter-Strike 2</a>
+                     <a class="link" href="#">Counter-Strike 2</a>
+                     <a class="link" href="#">Counter-Strike 2</a>
+                     <a class="link" href="#">Counter-Strike 2</a>
+                     <a class="link" href="#">Counter-Strike 2</a>
+                     <a class="link" href="#">Counter-Strike 2</a>
+                     <a class="link" href="#">Counter-Strike 2</a>
+                  </div>
+
+               </div>
+               
+            </div>
+            <!-- Content Right Carousel -->
+            <div class="col-xl-8 col-12 position-relative slidecontent" style="background-color: #1A293A;">
+               <!-- Carousel 1 -->
+               <div class="py-3 mb-4">
+                  <h4 class="carousel-title">ÖNE ÇIKANLAR VE TAVSİYE EDİLENLER</h4>
+                  <div id="carouselExampleIndicators" class="carousel slide slide1 c1" data-mdb-ride="carousel">
+                     <div class="carousel-indicators">
+                        <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="0" class="active"
+                           aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="1"
+                           aria-label="Slide 2"></button>
+                        <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="2"
+                           aria-label="Slide 3"></button>
+                     </div>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <img src="https://cdn.akamai.steamstatic.com/steam/apps/292030/capsule_616x353.jpg?t=1693590732" class="d-block w-100" alt="Wild Landscape" />
+                           <div class="carousel-info d-flex flex-column justify-content-between p-2">
+                              <div>
+                                 <div class="title p-2">The Witcher® 3: Wild Hunt</div>
+                                 <div class="galery row p-2 g-2">
+                                    <div class="col-6"><img
+                                          src="https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_5710298af2318afd9aa72449ef29ac4a2ef64d8e.600x338.jpg"
+                                          alt=""></div>
+                                    <div class="col-6"><img
+                                          src="https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_eda99e7f705a113d04ab2a7a36068f3e7b343d17.600x338.jpg"
+                                          alt=""></div>
+                                    <div class="col-6"><img
+                                          src="https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_5710298af2318afd9aa72449ef29ac4a2ef64d8e.600x338.jpg"
+                                          alt=""></div>
+                                    <div class="col-6"><img
+                                          src="https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_eda99e7f705a113d04ab2a7a36068f3e7b343d17.600x338.jpg"
+                                          alt=""></div>
+                                 </div>
+                                 <div class="subtitle px-2">Yayınlandı</div>
+                                 <div class="filter px-1 ms-2">En Çok Satan</div>
+                              </div>
+                              <div class="price px-1 ms-2">161 TL</div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <img src="https://cdn.akamai.steamstatic.com/steam/apps/1665460/capsule_616x353.jpg?t=1694144450" class="d-block w-100" alt="Camera" />
+                           <div class="carousel-info d-flex flex-column justify-content-between p-2">
+                              <div>
+                                 <div class="title p-2">Football 2024</div>
+                                 <div class="galery row p-2 g-2">
+                                    <div class="col-6"><img
+                                          src="https://cdn.akamai.steamstatic.com/steam/apps/1665460/ss_29a6812832347a693cccd8ecc2a9c37c6949ab47.600x338.jpg"
+                                          alt=""></div>
+                                    <div class="col-6"><img
+                                          src="https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_eda99e7f705a113d04ab2a7a36068f3e7b343d17.600x338.jpg"
+                                          alt=""></div>
+                                    <div class="col-6"><img
+                                          src="https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_5710298af2318afd9aa72449ef29ac4a2ef64d8e.600x338.jpg"
+                                          alt=""></div>
+                                    <div class="col-6"><img
+                                          src="https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_eda99e7f705a113d04ab2a7a36068f3e7b343d17.600x338.jpg"
+                                          alt=""></div>
+                                 </div>
+                                 <div class="subtitle px-2">Yayınlandı</div>
+                                 <div class="filter px-1 ms-2">En Çok Satan</div>
+                              </div>
+                              <div class="price px-1 ms-2">161 TL</div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <img src="https://cdn.akamai.steamstatic.com/steam/apps/252490/capsule_616x353.jpg?t=1693652810" class="d-block w-100" alt="Exotic Fruits" />
+                           <div class="carousel-info d-flex flex-column justify-content-between p-2">
+                              <div>
+                                 <div class="title p-2">Rust</div>
+                                 <div class="galery row p-2 g-2">
+                                    <div class="col-6"><img
+                                          src="https://cdn.akamai.steamstatic.com/steam/apps/252490/ss_0e646f1a70e5cb8eed00efef8adb9579d40d5b2e.600x338.jpg"
+                                          alt=""></div>
+                                    <div class="col-6"><img
+                                          src="https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_eda99e7f705a113d04ab2a7a36068f3e7b343d17.600x338.jpg"
+                                          alt=""></div>
+                                    <div class="col-6"><img
+                                          src="https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_5710298af2318afd9aa72449ef29ac4a2ef64d8e.600x338.jpg"
+                                          alt=""></div>
+                                    <div class="col-6"><img
+                                          src="https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_eda99e7f705a113d04ab2a7a36068f3e7b343d17.600x338.jpg"
+                                          alt=""></div>
+                                 </div>
+                                 <div class="subtitle px-2">Yayınlandı</div>
+                                 <div class="filter px-1 ms-2">En Çok Satan</div>
+                              </div>
+                              <div class="price px-1 ms-2">161 TL</div>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators"
+                        data-mdb-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                     </button>
+                     <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators"
+                        data-mdb-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                     </button>
+                  </div>
+               </div>
+               <!-- Carousel 2 -->
+               <div class="py-3 mb-4">
+                  <h4 class="carousel-title">ÖZEL TEKLİFLER</h4>
+                  <div id="carouselExampleIndicators2" class="carousel slide slide1 c2" data-mdb-ride="carousel">
+                     <div class="carousel-indicators">
+                        <button type="button" data-mdb-target="#carouselExampleIndicators2" data-mdb-slide-to="0" class="active"
+                           aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-mdb-target="#carouselExampleIndicators2" data-mdb-slide-to="1"
+                           aria-label="Slide 2"></button>
+                        <button type="button" data-mdb-target="#carouselExampleIndicators2" data-mdb-slide-to="2"
+                           aria-label="Slide 3"></button>
+                     </div>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="row h-100 m-0">
+                              <div class="col-4 c2card pe-3">
+                                 <div class="card h-100 rounded-0">
+                                    <img src="https://cdn.akamai.steamstatic.com/steam/spotlights/f5a4cb0d0d005cc248d6cfad/spotlight_image_turkish.jpg?t=1695924448" class="card-img-top" alt="...">
+                                    <div class="card-body pt-2 pb-3 px-3">
+                                       <h5 class="card-title py-1">HAFTA ORTASI FIRSATI</h5>
+                                       <p class="card-text pb-1">5 Eki @ 20:00 tarihinde teklif sona erecek.</p>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-4 c2card px-1">
+                                 <div class="card h-100 rounded-0">
+                                    <img src="https://cdn.akamai.steamstatic.com/steam/spotlights/ccb7741f650bb3e3ee16d435/spotlight_image_english.jpg?t=1695926112" class="card-img-top" alt="...">
+                                    <div class="card-body pt-2 pb-3 px-3">
+                                       <h5 class="card-title pb-1">HAFTA ORTASI FIRSATI</h5>
+                                       <p class="card-text pb-2 m-0">5 Eki @ 20:00 tarihinde teklif sona erecek.</p>
+                                       <div class="d-flex">
+                                          <div class="px-2 fw-bold" style="font-size: 1.6rem; color: #BEEE11;background: #4c6b22;line-height: 2.1rem;">-90%</div>
+                                          <div class="d-flex flex-column px-2" style="background-color: #344654;">
+                                             <div class="card-price" style="line-height: .75rem; color: #738895; font-size: .70rem; position: relative; left: .75rem; top: 5px;">765,00 TL</div>
+                                             <div style="line-height: 1.5rem; color: #BEEE11; font-size: .92rem;">76,50 TL</div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-4 c2card d-flex flex-column gap-3 ps-3">
+                                 <div class="card h-50 rounded-0 d-flex flex-column">
+                                    <img src="https://cdn.akamai.steamstatic.com/steam/apps/257420/header.jpg?t=1680689471" class="card-img-top" alt="...">
+                                    <div class="card-body ps-2 pe-1 py-1 justify-content-between position-relative d-flex align-items-center" style="background: #abdaf4;">
+                                       <h5 class="card-title m-0 text-dark fw-light">Günün fırsatı!</h5>
+                                       <div class="d-flex">
+                                          <div class="px-2 fw-bold" style="font-size: 1.6rem; color: #BEEE11;background: #4c6b22;line-height: 2.1rem;">-80%</div>
+                                          <div class="d-flex flex-column px-2" style="background-color: #344654;">
+                                             <div class="card-price" style="line-height: .75rem; color: #738895; font-size: .70rem; position: relative; left: .75rem; top: 5px;">340,00 TL</div>
+                                             <div style="line-height: 1.5rem; color: #BEEE11; font-size: .92rem;">68,00 TL</div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="card h-50 rounded-0">
+                                    <img src="https://cdn.akamai.steamstatic.com/steam/apps/721520/header.jpg?t=1538960875" class="card-img-top" alt="...">
+                                    <div class="card-body ps-2 pe-1 py-1 justify-content-between position-relative d-flex align-items-center" style="background: #abdaf4;">
+                                       <h5 class="card-title m-0 text-dark fw-light">Günün fırsatı!</h5>
+                                       <div class="d-flex">
+                                          <div class="px-2 fw-bold" style="font-size: 1.6rem; color: #BEEE11;background: #4c6b22;line-height: 2.1rem;">-80%</div>
+                                          <div class="d-flex flex-column px-2" style="background-color: #344654;">
+                                             <div class="card-price" style="line-height: .75rem; color: #738895; font-size: .70rem; position: relative; left: .75rem; top: 5px;">340,00 TL</div>
+                                             <div style="line-height: 1.5rem; color: #BEEE11; font-size: .92rem;">68,00 TL</div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="row h-100 m-0">
+                              <div class="col-4 c2card pe-3">
+                                 <div class="card h-100 rounded-0">
+                                    <img
+                                       src="https://cdn.akamai.steamstatic.com/steam/spotlights/5a7db6998103a317d6bfc68f/spotlight_image_turkish.jpg?t=1695932965"
+                                       class="card-img-top" alt="...">
+                                    <div class="card-body pt-2 pb-3 px-3">
+                                       <h5 class="card-title py-1">YAYINCI İNDİRİMİ</h5>
+                                       <p class="card-text pb-1">16 Eki @ 20:00 tarihinde teklif sona erecek.</p>
+                           
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-4 c2card px-1">
+                                 <div class="card h-100 rounded-0">
+                                    <img
+                                       src="https://cdn.akamai.steamstatic.com/steam/spotlights/e8c76824353e70e1f64b2eea/spotlight_image_english.jpg?t=1696287679"
+                                       class="card-img-top" alt="...">
+                                    <div class="card-body pt-2 pb-3 px-3">
+                                       <h5 class="card-title pb-1">HAFTA ORTASI FIRSATI</h5>
+                                       <p class="card-text pb-2 m-0">9 Eki @ 20:00 tarihinde teklif sona erecek.</p>
+                                       <div class="d-flex">
+                                          <div class="px-2 fw-bold"
+                                             style="font-size: 1.6rem; color: #BEEE11;background: #4c6b22;line-height: 2.1rem;">-90%</div>
+                                          <div class="d-flex flex-column px-2" style="background-color: #344654;">
+                                             <div class="card-price"
+                                                style="line-height: .75rem; color: #738895; font-size: .70rem; position: relative; left: .75rem; top: 5px;">
+                                                765,00 TL</div>
+                                             <div style="line-height: 1.5rem; color: #BEEE11; font-size: .92rem;">76,50 TL</div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-4 c2card d-flex flex-column gap-3 ps-3">
+                                 <div class="card h-50 rounded-0 d-flex flex-column">
+                                    <img src="https://cdn.akamai.steamstatic.com/steam/apps/1172620/header.jpg?t=1689874808" class="card-img-top"
+                                       alt="...">
+                                    <div class="card-body ps-2 pe-1 py-1 justify-content-between position-relative d-flex align-items-center"
+                                       style="background: #abdaf4;">
+                                       <h5 class="card-title m-0 text-dark fw-light">Günün fırsatı!</h5>
+                                       <div class="d-flex">
+                                          <div class="px-2 fw-bold"
+                                             style="font-size: 1.6rem; color: #BEEE11;background: #4c6b22;line-height: 2.1rem;">-80%</div>
+                                          <div class="d-flex flex-column px-2" style="background-color: #344654;">
+                                             <div class="card-price"
+                                                style="line-height: .75rem; color: #738895; font-size: .70rem; position: relative; left: .75rem; top: 5px;">
+                                                340,00 TL</div>
+                                             <div style="line-height: 1.5rem; color: #BEEE11; font-size: .92rem;">68,00 TL</div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="card h-50 rounded-0">
+                                    <img src="https://cdn.akamai.steamstatic.com/steam/subs/124923/header_ratio.jpg?t=1671055800" class="card-img-top"
+                                       alt="...">
+                                    <div class="card-body ps-2 pe-1 py-1 justify-content-between position-relative d-flex align-items-center"
+                                       style="background: #abdaf4;">
+                                       <h5 class="card-title m-0 text-dark fw-light">Günün fırsatı!</h5>
+                                       <div class="d-flex">
+                                          <div class="px-2 fw-bold"
+                                             style="font-size: 1.6rem; color: #BEEE11;background: #4c6b22;line-height: 2.1rem;">-80%</div>
+                                          <div class="d-flex flex-column px-2" style="background-color: #344654;">
+                                             <div class="card-price"
+                                                style="line-height: .75rem; color: #738895; font-size: .70rem; position: relative; left: .75rem; top: 5px;">
+                                                340,00 TL</div>
+                                             <div style="line-height: 1.5rem; color: #BEEE11; font-size: .92rem;">68,00 TL</div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                           
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="row h-100 m-0">
+                              <div class="col-4 c2card pe-3">
+                                 <div class="card h-100 rounded-0">
+                                    <img
+                                       src="https://cdn.akamai.steamstatic.com/steam/spotlights/f5a4cb0d0d005cc248d6cfad/spotlight_image_turkish.jpg?t=1695924448"
+                                       class="card-img-top" alt="...">
+                                    <div class="card-body pt-2 pb-3 px-3">
+                                       <h5 class="card-title py-1">HAFTA ORTASI FIRSATI</h5>
+                                       <p class="card-text pb-1">5 Eki @ 20:00 tarihinde teklif sona erecek.</p>
+                           
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-4 c2card px-1">
+                                 <div class="card h-100 rounded-0">
+                                    <img
+                                       src="https://cdn.akamai.steamstatic.com/steam/spotlights/ccb7741f650bb3e3ee16d435/spotlight_image_english.jpg?t=1695926112"
+                                       class="card-img-top" alt="...">
+                                    <div class="card-body pt-2 pb-3 px-3">
+                                       <h5 class="card-title pb-1">HAFTA ORTASI FIRSATI</h5>
+                                       <p class="card-text pb-2 m-0">5 Eki @ 20:00 tarihinde teklif sona erecek.</p>
+                                       <div class="d-flex">
+                                          <div class="px-2 fw-bold"
+                                             style="font-size: 1.6rem; color: #BEEE11;background: #4c6b22;line-height: 2.1rem;">-90%</div>
+                                          <div class="d-flex flex-column px-2" style="background-color: #344654;">
+                                             <div class="card-price"
+                                                style="line-height: .75rem; color: #738895; font-size: .70rem; position: relative; left: .75rem; top: 5px;">
+                                                765,00 TL</div>
+                                             <div style="line-height: 1.5rem; color: #BEEE11; font-size: .92rem;">76,50 TL</div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-4 c2card d-flex flex-column gap-3 ps-3">
+                                 <div class="card h-50 rounded-0 d-flex flex-column">
+                                    <img src="https://cdn.akamai.steamstatic.com/steam/apps/257420/header.jpg?t=1680689471" class="card-img-top"
+                                       alt="...">
+                                    <div class="card-body ps-2 pe-1 py-1 justify-content-between position-relative d-flex align-items-center"
+                                       style="background: #abdaf4;">
+                                       <h5 class="card-title m-0 text-dark fw-light">Günün fırsatı!</h5>
+                                       <div class="d-flex">
+                                          <div class="px-2 fw-bold"
+                                             style="font-size: 1.6rem; color: #BEEE11;background: #4c6b22;line-height: 2.1rem;">-80%</div>
+                                          <div class="d-flex flex-column px-2" style="background-color: #344654;">
+                                             <div class="card-price"
+                                                style="line-height: .75rem; color: #738895; font-size: .70rem; position: relative; left: .75rem; top: 5px;">
+                                                340,00 TL</div>
+                                             <div style="line-height: 1.5rem; color: #BEEE11; font-size: .92rem;">68,00 TL</div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="card h-50 rounded-0">
+                                    <img src="https://cdn.akamai.steamstatic.com/steam/apps/257420/header.jpg?t=1680689471" class="card-img-top"
+                                       alt="...">
+                                    <div class="card-body ps-2 pe-1 py-1 justify-content-between position-relative d-flex align-items-center"
+                                       style="background: #abdaf4;">
+                                       <h5 class="card-title m-0 text-dark fw-light">Günün fırsatı!</h5>
+                                       <div class="d-flex">
+                                          <div class="px-2 fw-bold"
+                                             style="font-size: 1.6rem; color: #BEEE11;background: #4c6b22;line-height: 2.1rem;">-80%</div>
+                                          <div class="d-flex flex-column px-2" style="background-color: #344654;">
+                                             <div class="card-price"
+                                                style="line-height: .75rem; color: #738895; font-size: .70rem; position: relative; left: .75rem; top: 5px;">
+                                                340,00 TL</div>
+                                             <div style="line-height: 1.5rem; color: #BEEE11; font-size: .92rem;">68,00 TL</div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                           
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators2"
+                        data-mdb-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                     </button>
+                     <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators2"
+                        data-mdb-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                     </button>
+                  </div>
+               </div>
+               <!-- Carousel 3 -->
+               <div class="py-3 mb-4">
+                  <h4 class="carousel-title">ÖZEL TEKLİFLER</h4>
+                  <div id="carouselExampleIndicators3" class="carousel slide slide1 c3" data-mdb-ride="carousel">
+                     <div class="carousel-indicators">
+                        <button type="button" data-mdb-target="#carouselExampleIndicators3" data-mdb-slide-to="0" class="active"
+                           aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-mdb-target="#carouselExampleIndicators3" data-mdb-slide-to="1"
+                           aria-label="Slide 2"></button>
+                        <button type="button" data-mdb-target="#carouselExampleIndicators3" data-mdb-slide-to="2"
+                           aria-label="Slide 3"></button>
+                     </div>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="row h-100 m-0">
+                              <div class="col-md-3 col-12 c3card   my-2 pe-2">
+                                 <div class="card-category">
+                                    <img src="https://store.steampowered.com/categories/homepageimage/freetoplay?cc=us&l=turkish" alt="">
+                                    <div class="title">OYNAMASI ÜCRETSİZ</div>
+                                    <div class="grad"></div>
+                                 </div>
+                              </div>
+                              <div class="col-md-3 col-12 c3card   my-2 px-2">
+                                 <div class="card-category">
+                                    <img src="https://store.steampowered.com/categories/homepageimage/category/fighting_martial_arts?cc=us&l=turkish" alt="">
+                                    <div class="title">DÖVÜŞ</div>
+                                    <div class="grad"></div>
+                                 </div>
+                              </div>
+                              <div class="col-md-3 col-12 c3card   my-2 px-2">
+                                 <div class="card-category">
+                                    <img src="https://store.steampowered.com/categories/homepageimage/category/fighting_martial_arts?cc=us&l=turkish" alt="">
+                                    <div class="title">ŞEHİR VE YERLEŞİM</div>
+                                    <div class="grad"></div>
+                                 </div>
+                              </div>
+                              <div class="col-md-3 col-12 c3card   my-2 ps-2">
+                                 <div class="card-category">
+                                    <img src="https://store.steampowered.com/categories/homepageimage/category/puzzle_matching/?cc=us&l=turkish" alt="">
+                                    <div class="title">BULMACA</div>
+                                    <div class="grad"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="row h-100 m-0">
+                              <div class="col-md-3 col-12 c3card   my-2 pe-2">
+                                 <div class="card-category">
+                                    <img src="https://store.steampowered.com/categories/homepageimage/freetoplay?cc=us&l=turkish" alt="">
+                                    <div class="title">ZENGİN HİKAYE</div>
+                                    <div class="grad"></div>
+                                 </div>
+                              </div>
+                              <div class="col-md-3 col-12 c3card   my-2 px-2">
+                                 <div class="card-category">
+                                    <img src="https://store.steampowered.com/categories/homepageimage/category/fighting_martial_arts?cc=us&l=turkish" alt="">
+                                    <div class="title">BİLİM KURGU</div>
+                                    <div class="grad"></div>
+                                 </div>
+                              </div>
+                              <div class="col-md-3 col-12 c3card   my-2 px-2">
+                                 <div class="card-category">
+                                    <img src="https://store.steampowered.com/categories/homepageimage/category/fighting_martial_arts?cc=us&l=turkish" alt="">
+                                    <div class="title">GÖRSEL ROMAN</div>
+                                    <div class="grad"></div>
+                                 </div>
+                              </div>
+                              <div class="col-md-3 col-12 c3card   my-2 ps-2">
+                                 <div class="card-category">
+                                    <img src="https://store.steampowered.com/categories/homepageimage/category/puzzle_matching/?cc=us&l=turkish" alt="">
+                                    <div class="title">TÜM SPORLAR</div>
+                                    <div class="grad"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="row h-100 m-0">
+                              <div class="col-md-3 col-12 c3card   my-2 pe-2">
+                                 <div class="card-category">
+                                    <img src="https://store.steampowered.com/categories/homepageimage/freetoplay?cc=us&l=turkish" alt="">
+                                    <div class="title">ROGUE LİKE</div>
+                                    <div class="grad"></div>
+                                 </div>
+                              </div>
+                              <div class="col-md-3 col-12 c3card   my-2 px-2">
+                                 <div class="card-category">
+                                    <img src="https://store.steampowered.com/categories/homepageimage/category/fighting_martial_arts?cc=us&l=turkish" alt="">
+                                    <div class="title">AÇIK DÜNYA</div>
+                                    <div class="grad"></div>
+                                 </div>
+                              </div>
+                              <div class="col-md-3 col-12 c3card   my-2 px-2">
+                                 <div class="card-category">
+                                    <img src="https://store.steampowered.com/categories/homepageimage/category/fighting_martial_arts?cc=us&l=turkish" alt="">
+                                    <div class="title">YARIŞ</div>
+                                    <div class="grad"></div>
+                                 </div>
+                              </div>
+                              <div class="col-md-3 col-12 c3card   my-2 ps-2">
+                                 <div class="card-category">
+                                    <img src="https://store.steampowered.com/categories/homepageimage/category/puzzle_matching/?cc=us&l=turkish" alt="">
+                                    <div class="title">EŞLİ</div>
+                                    <div class="grad"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators3"
+                        data-mdb-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                     </button>
+                     <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators3"  
+                        data-mdb-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+
+            
+      </div>
+      
+   </main>
+
+   <!-- MDB -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+</body>
+</html>
